@@ -1,4 +1,234 @@
 <!DOCTYPE html>
-<html>
-  <h1>hi</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Micah Reich</title>
+    <!--------- Stylesheets and Scripts ---------->
+    <link rel="stylesheet" href="css/styles.css"> <!-- Css Stylesheet -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jQuery -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"> <!-- Animate.css -->
+    <script src="js/navbar.js"></script> <!-- Responsive Nav -->
+</head>
+<body>
+    <!--------- Navigation Bar ---------->
+    <section class="topnav" id="navbar">
+        <div class="container-nav">
+            <a href="#home" class="logo">m.<strong class="yellow">reich</strong></a>
+            <a href="#contact">Contact</a>
+            <a href="#projects">Projects</a>
+            <a href="#information">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </section>
+    <!--------- Header Section ---------->
+    <section class="header">
+        <div class="container group">
+            <div class="col large-12 med-12 small-12">
+                <h1 class="header-title">
+                    I am <strong>Micah Reich</strong>
+                </h1>
+                <h3 class="header-subtitle">
+                    I'm a young <span class="underline">innovator</span> from Atlanta. I design, build, and develop software. <br />Scroll down to learn more.
+                </h3>
+            </div>
+        </div>
+    </section>
+    <!--------- Information Section ---------->
+    <section class="information" id="information">
+        <div class="container group">
+            <div class="col large-4 med-12 small-12">
+                <h1 class="section-title-dark">B I O G R A P H Y</h1>
+                <p class="section-text">My name is Micah Reich, I'm a 16 years old, and I'm from Atlanta, Georgia. If you'd like to know what I do, continue reading.</p>
+            </div>
+            <div class="col large-8 med-12 small-12">
+                <p class="section-text">
+                    Hi, I'm Micah and I like to build things!
+                    Software development caught my eye at a young age, and I have developed a passion and love for programming and computer science.
+                    In discovering what fields particularly interest me, I have researched and cultivated a keen interest in machine learning and enterprise development.
+                    Using the internet's endless resources, I have taught myself Python, Java, HTML, CSS, JavaScript, and deep learning.
+                    With these tools and technologies, I have completed machine learning research at Georgia Tech, enterprise development for two start-up companies, and freelance web development; I continue to pursue projects which captivate and inspire me.
+                </p>
+                <br /><button class="btn-hollow-white"><a target="_blank" href="files/Resume-3.pdf" download>view résumé</a></button>
+            </div>
+        </div>
+    </section>
+    <!--------- Skills Section ---------->
+    <section class="skills">
+        <div class="container group">
+            <div class="col large-12 med-12 small-12">
+                <h1 class="section-title-light">S K I L L S</h1>
+            </div>
+        </div>
+        <div class="container group">
+            <div class="col large-4 med-12 small-12">
+                <i class="fab fa-python"></i><br/><br/>
+                <p class="section-text"><b>Python Development</b><br /></p>
+                <p class="section-text">I have 2 years of experience in Python development. Using Python, I have conducted machine learning research and development as well as enterprise development.</p>
+            </div>
+
+            <div class="col large-4 med-12 small-12">
+                <i class="fab fa-java"></i><br/><br/>
+                <p class="section-text"><b>Java Development</b></p>
+                <p class="section-text">I have 1 year of experience in Java development. Using Java, I have built backend systems & learned the intricacies of object-oriented programming.</p>
+            </div>
+
+            <div class="col large-4 med-12 small-12">
+                <i class="fas fa-brain"></i><br/><br/>
+                <p class="section-text"><b>Deep Learning</b></p>
+                <p class="section-text">I have 1.5 years of experience with deep learning. Specifically, I am well-versed in convolutional networks, recurrent networks, and multi-layer perceptrons. </p>
+            </div>
+        </div>
+
+        <div class="container group">
+            <div class="col large-4 med-12 small-12">
+                <i class="fas fa-atom"></i><br/><br/>
+                <p class="section-text"><b>Molecular Biology</b></p>
+                <p class="section-text">Molecular biology, including genomics and biological systems, is a field which I am passionate about and a field in which I would like to conduct research.</p>
+            </div>
+
+            <div class="col large-4 med-12 small-12">
+                <i class="fas fa-code"></i><br/><br/>
+                <p class="section-text"><b>Web Development & Design</b></p>
+                <p class="section-text">I have 4 years of experience in web development and design, including extensive knowledge of html, css, javascript, design principles, and freelance web development.</p>
+            </div>
+
+            <div class="col large-4 med-12 small-12">
+                <i class="fas fa-globe-americas"></i><br/><br/>
+                <p class="section-text"><b>World Languages</b></p>
+                <p class="section-text">I have studied Hebrew, Spanish, and English for many years in school and at home. I am conversational in Spanish, fluent in Hebrew, and my native language is English.</p>
+            </div>
+        </div>
+    </section>
+    <!--------- Call to Action Section ---------->
+    <section class="call-to-action">
+        <div class="container group">
+            <div class="col large-12 med-12 small-12">
+                <div style="text-align: center;">
+                    <h1 class="section-title">Want to get in touch? </h1> <button class="btn-hollow-white"><a href="#contact">contact me</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------- Projects Section ---------->
+    <section class="projects" id="projects">
+        <div class="container group">
+            <div class="col large-12 med-12 small-12">
+                <h1 class="section-title-dark">P R O J E C T S</h1>
+                <p class="section-text">Here, you can find some past and ongoing projects that I've been working on. <br>If you have any questions or want to see more, please contact me!</p>
+            </div>
+        </div>
+        <br />
+        <div class="container group">
+            <div class="col large-4 med-12 small-12">
+                <div class="project-container">
+                    <h1 class="project-title">portfolio <i class="fas fa-check"></i></h1>
+                    <p class="section-text">Using HTML, CSS, and JavaScript, I created the very website you're on right now!</p>
+                    <li class="section-text">› One week completion time</li>
+                    <li class="section-text">› Fully custom code–no templates</li>
+                </div>
+            </div>
+
+            <div class="col large-4 med-12 small-12">
+                <div class="project-container">
+                    <h1 class="project-title">education technology <i class="fas fa-clock"></i></h1>
+                    <p class="section-text">I am developing a recurrent neural network in Python to help students learn from their mistakes.</p>
+                    <li class="section-text">› Ongoing project</li>
+                    <li class="section-text">› TensorFlow integration of a seq2seq model</li>
+                </div>
+            </div>
+
+            <div class="col large-4 med-12 small-12">
+                <div class="project-container">
+                    <h1 class="project-title">tumor detection <i class="fas fa-clock"></i></h1>
+                    <p class="section-text">I am developing a convolutional neural network that is able to detect and classify malignant brain tumors</p>
+                    <li class="section-text">› Ongoing project</li>
+                    <li class="section-text">› Custom network architecture</li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------- Contact Section ---------->
+    <section class="contact" id="contact">
+        <div class="container group">
+            <div class="col large-4 med-12 small-12">
+                <h1 class="section-title-light">C O N T A C T</h1>
+            </div><br/>
+
+            <div class="col large-2 med-12 small-12">
+                <li><i class="fas fa-envelope"></i> <b>EMAIL</b> <br>
+                    <a target="_blank" href="mailto:micahreich02@gmail.com">micahreich02@gmail.com</a></li>
+            </div>
+            <div class="col large-2 med-12 small-12">
+                <li><i class="fab fa-linkedin"></i> <b>LINKEDIN</b> <br>
+                    <a target="_blank" href="https://www.linkedin.com/in/micah-reich/">linkedin.com/in/micah-reich</a></li>
+            </div>
+            <div class="col large-2 med-12 small-12">
+                <li><i class="fas fa-phone"></i> <b>PHONE</b> <br>
+                    <a href="tel:404-312-0103">404-312-0103</a></li>
+            </div>
+        </div>
+    </section>
+    <!--------- Footer Section ---------->
+    <section class="footer">
+        <div class="container group">
+            <div class="col large-3 med-12 small-12">
+                <h1 class="footer-title">navigate</h1>
+                <ul class="footer-links">
+                    <li class="footer-link"><a href="#">home</a></li>
+                    <li class="footer-link"><a href="#">projects</a></li>
+                    <li class="footer-link"><a href="#">contact</a></li>
+                </ul>
+            </div>
+            <div class="col large-3 med-12 small-12">
+                <h1 class="footer-title">contact</h1>
+                <ul class="footer-links">
+                    <li class="footer-link"><a target="_blank" href="mailto:micahreich02@gmail.com">micahreich02@gmail.com</a></li>
+                    <li class="footer-link"><a target="_blank" href="https://www.linkedin.com/in/micah-reich/">linkedin.com/in/micah-reich</a></li>
+                    <li class="footer-link"><a href="tel:404-312-0103">404-312-0103</a></li>
+                </ul>
+            </div>
+            <div class="col large-6 med-12 small-12">
+                <h1 class="footer-logo">m.<span>reich</span></h1>
+            </div>
+        </div>
+    </section>
+    <section class="subfooter">
+        <div class="container group">
+            <div class="col large-12 med-12 small-12">
+                <h1 class="subfooter-credit">designed and developed by yours truly</h1>
+                <h1 class="subfooter-copy">&copy; Copyright 2018-2019 Micah Reich</h1>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script>
+    $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+</script>
 </html>
