@@ -1,0 +1,292 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <!-- Title -->
+    <title>Micah Reich</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Micah Reich's personal website.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Isotope JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  </head>
+
+  <body id="body">
+
+    <div id="main">
+      <div id="intro">
+        <div id="intro-text">
+          <h1>Micah Reich</h1>
+          <p>
+            I'm an aerospace GNC engineer at a stealth startup in San Francisco.
+            I recently completed my M.S. in Robotics at <a href="https://www.ri.cmu.edu/">Carnegie Mellon University</a>, where I was advised by
+            <a href="https://roboticexplorationlab.org/">Zac Manchester</a> in the Robotic Exploration Lab.
+            My work focuses on numerical optimization for robotics and aerospace: trajectory optimization, contact-implicit planning, and guidance, navigation, and control.
+            <br><br>
+            Before that, I received my B.S. in Computer Science with a concentration in robotics from CMU's <a href="https://www.cs.cmu.edu/">School of Computer Science</a>.
+            Previously, I have interned on GNC teams at <a href="https://www.spacex.com/">SpaceX</a>, <a href="https://www.flyzipline.com/">Zipline</a>, and <a href="https://www.anduril.com/">Anduril</a>.
+            <br><br>
+
+            <br>
+            <a href="https://github.com/micahreich">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/micah-reich/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <!-- <a href="https://scholar.google.com/citations?user=U2xm5sEAAAAJ&hl=en">G. Scholar</a> -->
+            <!-- Add files/Micah_Reich_CV.pdf, then uncomment:
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="files/Micah_Reich_CV.pdf" target="_blank" rel="noopener">CV</a> -->
+            <br><br>
+            micahreich02 at gmail dot com
+            <br><br>
+          </p>
+        </div>
+        <div id="intro-image">
+          <img src="images/profile.jpg" alt="Micah Reich" onerror="this.parentElement.style.display='none'">
+        </div>
+      </div>
+
+      <div id="filters" class="button-group">
+        <button class="button is-checked" data-filter=".highlight">Highlights</button>
+        <button class="button" data-filter=".publication">Publications</button>
+        <button class="button" data-filter=".project">Projects</button>
+        <button class="button" data-filter=".misc">Misc</button>
+      </div>
+
+      <div class="grid">
+
+        <!-- Highlights: newest first -->
+        <div class="list-item highlight" data-category="highlight">
+          <p class="date">Aug 2026</p>Joined a stealth startup in San Francisco as an Aerospace GNC Engineer.
+        </div>
+
+        <div class="list-item highlight" data-category="highlight">
+          <p class="date">Aug 2026</p>Completed my M.S. in Robotics at CMU. My thesis, <a href="https://publications.ri.cmu.edu/an-on-manifold-approach-to-solving-mathematical-programs-with-complementarity-constraints">An On-Manifold Approach to Solving Mathematical Programs with Complementarity Constraints</a>, is published as CMU-RI-TR-26-70.
+        </div>
+
+        <div class="list-item highlight" data-category="highlight">
+          <p class="date">Apr 2026</p>Released <a href="https://arxiv.org/abs/2604.11991">Complementarity by Construction</a> and the open-source <a href="https://github.com/MarbleSolver/Marble">Marble</a> solver, with Arun Bishop and Zac Manchester.
+        </div>
+
+        <div class="list-item highlight" data-category="highlight">
+          <p class="date">Jun 2025</p>Starship GNC and analysis intern at SpaceX, working on entry, landing, and catch of the Starship second stage.
+        </div>
+
+        <div class="list-item highlight" data-category="highlight">
+          <p class="date">Jan 2025</p>Started my M.S. in Robotics at CMU, advised by Zac Manchester.
+        </div>
+
+        <div class="list-item highlight" data-category="highlight">
+          <p class="date">Dec 2024</p>Graduated from CMU with a B.S. in Computer Science (robotics concentration).
+        </div>
+
+        <div class="list-item highlight" data-category="highlight">
+          <p class="date">May 2024</p>SLAM research intern at Collaborative Robotics.
+        </div>
+
+        <div class="list-item highlight" data-category="highlight">
+          <p class="date">Jan 2024</p>GNC intern at Zipline, working on control of a hybrid fixed-wing VTOL delivery drone.
+        </div>
+
+        <div class="list-item highlight" data-category="highlight">
+          <p class="date">May 2023</p>Robotics software intern at Anduril Industries.
+        </div>
+
+        <div class="list-item highlight" data-category="highlight">
+          <p class="date">May 2022</p>Mobile robot controls intern at Milwaukee Tool.
+        </div>
+
+        <div class="list-item highlight" data-category="highlight">
+          <p class="date">Aug 2021</p>Started studying Computer Science at CMU.
+        </div>
+
+        <!-- Publications -->
+        <!-- <div class="list-item publication description" data-category="publication">
+          For a more up-to-date list, visit my <a href="https://scholar.google.com/citations?user=U2xm5sEAAAAJ&hl=en">Google Scholar</a>
+        </div> -->
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://arxiv.org/abs/2604.11991" class="thumbnail">
+            <img src="images/marble.png" alt="Robotics QPCCs solved with Marble">
+          </a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2604.11991">Complementarity by Construction: A Lie-Group Approach to Solving Quadratic Programs with Linear Complementarity Constraints</a></h3>
+            <p>
+              Arun L. Bishop, <ins>Micah I. Reich</ins>, Zachary Manchester<br>
+              <i>IEEE RA-L, ICRA 2026 Workshops (FOR, CR2)</i><br>
+              <a href="https://arxiv.org/abs/2604.11991">arXiv</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://arxiv.org/pdf/2604.11991">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://github.com/MarbleSolver/Marble">Code</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <div class="project-description no-thumb">
+            <h3><a href="https://publications.ri.cmu.edu/an-on-manifold-approach-to-solving-mathematical-programs-with-complementarity-constraints">An On-Manifold Approach to Solving Mathematical Programs with Complementarity Constraints</a></h3>
+            <p>
+              <ins>Micah Reich</ins><br>
+              <i>Master's Thesis, Carnegie Mellon University, 2026 (CMU-RI-TR-26-70)</i><br>
+              <a href="https://publications.ri.cmu.edu/an-on-manifold-approach-to-solving-mathematical-programs-with-complementarity-constraints">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://publications.ri.cmu.edu/storage/publications/2026/08/ri_thesis_20260804015649.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://github.com/MarbleSolver/Marble">Code</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <div class="project-description no-thumb">
+            <h3><a href="https://patents.google.com/patent/WO2024059614A1">Robotic Lawn Mower</a></h3>
+            <p>
+              International Patent Application WO2024059614A1 (pending), Milwaukee Tool<br>
+              <a href="https://patents.google.com/patent/WO2024059614A1">Patent</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <div class="project-description no-thumb">
+            <h3><a href="https://robonation.org/app/uploads/sites/5/2022/06/RS2022_Carnegie_Mellon_University_TartanAUV_TDR.pdf">Tartan Autonomous Underwater Vehicle Design and Implementation of TAUV-22: Kingfisher</a></h3>
+            <p>
+              T. Chemel, J. Duncan, S. Fisher, R. Jain, R. Morgan, K. Nikiforova, <ins>M. Reich</ins>, et al.<br>
+              <i>TartanAUV technical report</i>
+            </p>
+          </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="list-item project description" data-category="project">
+          More on my <a href="https://github.com/micahreich">GitHub</a>
+        </div>
+
+        <div class="list-item project" data-category="project">
+          <a href="https://github.com/micahreich/uav_control" class="thumbnail">
+            <img src="images/uav_control.gif" alt="Quadrotor tracking a minimum-snap trajectory">
+          </a>
+          <div class="project-description">
+            <h3><a href="https://github.com/micahreich/uav_control">UAV Controls</a></h3>
+            <p>
+              Controllers, dynamics models, and planners for quadrotor UAVs implemented from research papers, including geometric control with recovery from a 180&deg; roll, waypoint following, and minimum-snap trajectory tracking.<br>
+              <a href="https://github.com/micahreich/uav_control">Code</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item project" data-category="project">
+          <a href="https://github.com/micahreich/hybrid_ode_sim" class="thumbnail">
+            <img src="images/hybrid_ode_sim.gif" alt="Hybrid ODE simulation of a spring system">
+          </a>
+          <div class="project-description">
+            <h3><a href="https://github.com/micahreich/hybrid_ode_sim">Hybrid ODE Sim</a></h3>
+            <p>
+              A Python package for simulating systems with both continuous and discrete-time dynamics, such as robots with their control and planning loops.<br>
+              <a href="https://github.com/micahreich/hybrid_ode_sim">Code</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item project" data-category="project">
+          <a href="https://github.com/micahreich/patch-match" class="thumbnail">
+            <img src="images/patch_match.jpg" alt="Content-aware fill removing a person from an image">
+          </a>
+          <div class="project-description">
+            <h3><a href="https://github.com/micahreich/patch-match">Parallel PatchMatch for Content-Aware Fill</a></h3>
+            <p>
+              <ins>Micah Reich</ins>, David Krajewski<br>
+              <i>15-418 Parallel Computer Architecture and Programming, CMU</i><br>
+              <a href="https://github.com/micahreich/patch-match">Code</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item project" data-category="project">
+          <div class="project-description no-thumb">
+            <h3><a href="https://github.com/micahreich/mppi-neural-dynamics">Model Predictive Path Integral Control with Learned Dynamics</a></h3>
+            <p>
+              <i>16-711 Robot Kinematics, Dynamics, and Control, CMU</i><br>
+              <a href="https://drive.google.com/file/d/1mn-0chY1_kxfsGx4krfGysyY-i1y83J3/view?usp=sharing">Paper</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://github.com/micahreich/mppi-neural-dynamics">Code</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item project" data-category="project">
+          <div class="project-description no-thumb">
+            <h3><a href="https://github.com/micahreich/viper-compiler">ViperLang Compiler</a></h3>
+            <p>
+              A compiler for a Lisp-like language, written in Rust.<br>
+              <a href="https://github.com/micahreich/viper-compiler">Code</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Misc -->
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2021&ndash;26</p>Guidance, navigation, and controls software for <a href="https://www.tartanauv.com/">TartanAUV</a>, CMU's RoboSub team
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2022</p>3rd place of 40 universities at RoboSub 2022 with TartanAUV
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2022</p>Teaching Assistant for 15-151/21-128 Mathematical Foundations for Computer Science at CMU
+        </div>
+
+
+      </div>
+
+      <div id="footer">Inspired by <a href="https://jasonlee328.github.io">Jason Lee</a>'s and <a href="https://andyzeng.github.io/">Andy Zeng</a>'s websites</div>
+
+    </div>
+
+    <script>
+      function getStoredFilter() {
+        try { return localStorage.getItem('filterValue'); } catch (e) { return null; }
+      }
+      function setStoredFilter(v) {
+        try { localStorage.setItem('filterValue', v); } catch (e) {}
+      }
+
+      // Isotope grid.
+      var $grid = $('.grid').isotope({
+        itemSelector: '.list-item',
+        layoutMode: 'fitRows',
+        transitionDuration: 0,
+        initLayout: false
+      });
+
+      function applyFilter(filterValue) {
+        $grid.isotope({ filter: filterValue });
+        $('#filters .button').each(function () {
+          $(this).toggleClass('is-checked', $(this).attr('data-filter') === filterValue);
+        });
+      }
+
+      // Bind filter button click.
+      $('#filters').on('click', 'button', function () {
+        var filterValue = $(this).attr('data-filter');
+        setStoredFilter(filterValue);
+        applyFilter(filterValue);
+      });
+
+      // Restore the last-selected tab (defaults to Highlights).
+      var saved = getStoredFilter();
+      if (!saved || !$('#filters [data-filter="' + saved + '"]').length) saved = '.highlight';
+      $grid.isotope();
+      applyFilter(saved);
+
+      // Re-layout once images load so thumbnails don't overlap.
+      $(window).on('load', function () { $grid.isotope('layout'); });
+    </script>
+  </body>
+</html>
