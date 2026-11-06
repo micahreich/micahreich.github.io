@@ -6,6 +6,7 @@ Personal website. Plain static HTML (no build step), served by GitHub Pages.
 - `style.css` — theme
 - `images/` — profile photo (`profile.jpg`) and thumbnails
 - `files/` — CV/resume PDF
+- `blog/` — blog posts. Copy an existing post as a template; math in `$...$` / `$$...$$` renders with KaTeX. Link new posts from the Blog tab in `index.html`.
 
 Each item belongs to a tab via its class (`highlight`, `publication`, `talk`, `misc`).
 

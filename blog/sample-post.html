@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Sample Blog Post | Micah Reich</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A sample blog post.">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+
+    <!-- Site style -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- KaTeX: renders $...$, \(...\), $$...$$ and \[...\] in the browser -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"
+      onload="renderMathInElement(document.body, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '\\[', right: '\\]', display: true},
+          {left: '$', right: '$', display: false},
+          {left: '\\(', right: '\\)', display: false}
+        ],
+        throwOnError: false
+      });"></script>
+  </head>
+
+  <body id="body">
+    <div id="main">
+      <article id="post">
+        <a class="post-back" href="../">&larr; Micah Reich</a>
+
+        <h1>Sample Blog Post</h1>
+        <p class="post-date">November 2026</p>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur.
+        </p>
+
+        <h2>Lorem Ipsum</h2>
+        <p>
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum. For a right triangle with legs $a$ and $b$ and hypotenuse $c$,
+        </p>
+        $$
+          a^2 + b^2 = c^2.
+        $$
+      </article>
+
+      <div id="footer">Inspired by <a href="https://jasonlee328.github.io">Jason Lee</a>'s and <a href="https://andyzeng.github.io/">Andy Zeng</a>'s websites</div>
+    </div>
+  </body>
+</html>

@@ -196,6 +196,14 @@ h2 {
   line-height: 1.4em;
 }
 
+.list-item.blog {
+  line-height: 1.4em;
+}
+
+.coming-soon {
+  color: #a0a8b0;
+}
+
 .list-item p.date {
   display: inline-block;
   width: 4.5em;
@@ -356,5 +364,64 @@ h3 a:hover {
   }
   .project-description.no-thumb {
     margin-left: 0;
+  }
+}
+
+/**************************************************/
+/* Blog posts (blog/*.html). */
+
+#post {
+  max-width: 40em;
+  padding-top: 6em;
+  padding-bottom: 12.8em;
+  line-height: 1.6em;
+}
+
+#post .post-back {
+  color: #a0a8b0;
+}
+
+#post .post-back:hover {
+  color: rgb(20, 110, 190);
+}
+
+#post h1 {
+  line-height: 1.3em;
+  margin-top: 0.6em;
+}
+
+#post .post-date {
+  color: #a0a8b0;
+  margin-bottom: 2em;
+}
+
+#post h2 {
+  font-size: 1.3em;
+  line-height: 1.4em;
+  margin: 1.8em 0 0.6em;
+  color: #150c21;
+  font-weight: 500;
+}
+
+#post p,
+#post ul {
+  margin-bottom: 1em;
+}
+
+#post ul {
+  list-style: disc;
+  padding-left: 1.5em;
+}
+
+#post .katex-display {
+  margin: 1.2em 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+@media (max-width: 900px) {
+  #post {
+    padding-top: 3em;
+    padding-bottom: 5.4em;
   }
 }
